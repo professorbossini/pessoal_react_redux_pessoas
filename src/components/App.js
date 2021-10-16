@@ -1,11 +1,11 @@
 import React from 'react'
-
+import { selecionarPessoa } from '../actions'
+import PessoaLista from './PessoaLista'
 const App = () => {
     return (
         <div>
-            Modelo PrimeReact/PrimeFlex
+            <PessoaLista />
         </div>
     )
 }
-
 export default App

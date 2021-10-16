@@ -9,7 +9,13 @@ import 'primeflex/primeflex.css'
 //escolhemos esse aqui
 import 'primereact/resources/themes/bootstrap4-light-purple/theme.css'
 
+import { Provider } from 'react-redux'
+import  { createStore } from 'redux'
+import reducers from  './reducers'
+
 ReactDOM.render(
-    <App/>,
+    <Provider store={createStore(reducers)}>
+        <App/>
+    </Provider>,
     document.querySelector('#root')
 )
