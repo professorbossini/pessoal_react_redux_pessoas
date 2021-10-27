@@ -14,7 +14,7 @@ const pessoasReducer = () => {
 }
 
 const pessoaSelecionadaReducer = (pessoaSelecionada = null, acao) => {
-    if (acao.type == 'PESSOA_SELECIONADA'){
+    if (acao.type === 'PESSOA_SELECIONADA'){
         return acao.dados
     }
     return pessoaSelecionada
