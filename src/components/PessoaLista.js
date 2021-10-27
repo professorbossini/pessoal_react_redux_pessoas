@@ -9,8 +9,7 @@ class PessoaLista extends Component{
                 <div className="flex flex-row mb-2 w-6 border border-round border-1 border-400 justify-content-center">
                     {/* padding, largura */}
                     <div className="p-2 w-6">
-                        <p className="text-center">{pessoa.nome} {pessoa.sobrenome}</p>
-                        <p className="text-center">{pessoa.endereco}</p>
+                        <p className="text-center">{pessoa.nome}</p>
                     </div>
                     {/* flex e centralizando nos dois eixos */}
                     <div className="flex flex-row justify-content-center align-items-center">
